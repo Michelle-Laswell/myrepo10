@@ -1,0 +1,161 @@
+/* COLOR PALETTE
+  light green - hsl(92, 24%, 57%);
+  dark green - #556b2f;
+  cream - hsl(48, 44%, 87%);
+*/
+
+body {
+  background-image: url("Images/Lily.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "palatino", georgia, "sans-serif";
+  margin: 0;
+  padding: 0;  
+}
+
+h1 {
+  text-align: center;
+  background: hsla(92, 24%, 57%, 0.6);
+  color:   hsl(48, 44%, 87%);
+  font-family: 'Lilita One', cursive;
+  font-size: 75px;
+  padding:  50px;
+  margin: 0;
+  border: 3px solid #556b2f;
+}
+
+h2 {
+  color: #556b2f;
+  font-family: 'Lilita One', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Lilita One', cursive;
+}
+
+
+/*NAVIGATION BAR*/
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0x;
+  overflow: hidden;
+  background-color: hsla(48, 44%, 87%, 0.7);
+  border-bottom: 4px solid hsl(92, 24%, 57%);
+  width: 100%;
+}
+
+.navbar li {
+  float: left;
+  padding: 10px;
+  border-right: 3px solid hsl(92, 24%, 57%);
+}
+
+.navbar li a {
+  display: inline;
+  color: #556b2f;
+  font-family: 'Lilita One', cursive;
+  font-size: 25px;
+  text-align: center;
+  padding: 15px 25px;
+  margin: 20px;
+  text-decoration: none;   
+}
+
+.navbar li:last-child {
+  border-right: none;
+}
+
+.navbar li a:hover {
+  background: hsla(92, 24%, 57%,0.8);
+  color: hsl(48, 44%, 87%);
+}
+
+.navbar a.active {
+  background-color: #556b2f;
+  color: hsl(48, 44%, 87%);
+}
+
+/* STYLING LINKS */
+
+a: link {
+   color: hsl(92, 41%, 27%);
+   background-color: transparent;
+   text-decoration: none;
+}
+
+a: visited {
+   color:  red;
+   background-color: transparent;
+   text-decoration: none;
+}
+
+/* STYLING PAGE CONTENT */
+
+.intro {
+  display: block;
+  float: right;
+  position: relative;
+  background: hsl(48, 44%, 87%);
+  color: #556b2f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  width:  45%;
+  padding:  20px;
+  border: 8px solid hsl(92, 24%, 57%);
+  margin-top: 15px;  
+} 
+
+.content {
+  /*display: block;*/
+  float: right;
+  position: relative;
+  background: hsl(48, 44%, 87%);
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  margin: 30px;
+  width: 650px;
+  border: 5px solid hsl(92, 24%, 57%);
+}
+
+.content .btn {
+  color: hsl(48, 44%, 87%); 
+  background:  hsl(82, 39%, 30%);
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.content .btn:hover {
+  background: hsl(82, 39%, 30%, 75%);
+}
+
+.images {
+  display: flow-root;
+  float: right;
+  /*position: relative;*/
+  background: hsl(48, 44%, 87%);
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  margin: 30px;
+  width: 700px;
+  border: 5px solid hsl(92, 24%, 57%);
+}
+
+footer {
+  display: block;
+  float: left;
+  position: relative;
+  background: #556b2f;
+  color: hsl(48, 44%, 87%);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; 
+  width: 10%;
+  padding: 15px 25px;
+  border: 5px double hsl(48, 44%, 87%);
+}
